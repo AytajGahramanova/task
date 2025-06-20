@@ -1,0 +1,15 @@
+table {
+    border: 1px solid rgba(217, 50, 50, 0.607);
+    border-collapse: collapse;
+
+
+    th {
+        background-color: antiquewhite;
+        color: blueviolet;
+        font-size: 18px;
+    }
+
+    #name {
+        color: cadetblue;
+    }
+}

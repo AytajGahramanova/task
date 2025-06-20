@@ -1,0 +1,25 @@
+#pomogranate {
+    color: blue;
+}
+
+.first-div {
+    img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.second-div,
+.third-div {
+    background-image: url(images/cat2.jpg);
+    width: 400px;
+    height: 400px;
+}
+
+.div-content {
+    border: solid 1px red;
+    width: 1000px;
+    img {
+        width: 600px;
+    }
+}

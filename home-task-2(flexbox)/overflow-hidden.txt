@@ -1,0 +1,6 @@
+divin ozune -----> overflow: hidden;
+divin icindeki sekile ----->  transition: 0.6s;
+divin icindeki sekile hover edende ---->   width: 100%;   scale: 1.3;
+
+
+

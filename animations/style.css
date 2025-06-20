@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+    animation: move 3s infinite linear;
+
+
+    .first-line,
+    .second-line {
+        width: 30px;
+        height: 300px;
+        border: 2px solid black;
+
+    }
+}
+
+.first-line {
+    position: relative;
+}
+
+.second-line {
+    position: absolute;
+    rotate: 90deg;
+}
+
+@keyframes move {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}

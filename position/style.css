@@ -1,0 +1,36 @@
+.content {
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth {
+        position: absolute;
+        border: 2px solid red;
+        width: 100px;
+        height: 100px;
+    }
+
+    .second {
+        right: 0;
+    }
+
+    .third {
+        bottom: 0;
+    }
+
+    .fourth {
+        right: 0;
+        bottom: 0;
+    }
+
+    .fifth {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
